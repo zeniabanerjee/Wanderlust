@@ -1,0 +1,26 @@
+
+@keyframes bounce {
+    0% {
+transform: scale(1,1) translate(0px, 0px);
+}
+
+30%{
+transform: scale(1,0.8) translate(0px, 1px); 
+}
+
+75%{
+transform: scale(1,1.1) translate(0px, -5px); 
+}
+
+100% {
+transform: scale(1,1) translate(0px, 0px);
+}
+}
+
+.bounce{
+    color: #E85C53;
+    animation: bounce 0.75s infinite;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+

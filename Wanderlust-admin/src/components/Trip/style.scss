@@ -1,0 +1,13 @@
+.img-filter {
+  filter: brightness(0) saturate(100%) invert(65%) sepia(51%) saturate(7449%)
+    hue-rotate(332deg) brightness(103%) contrast(81%);
+}
+.trips-grid-container {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  @media screen and (min-width: 720px) {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+  }
+  grid-template-columns: repeat(auto-fit, auto);
+}

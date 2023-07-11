@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+$font-name1: 'Lexend',sans-serif;
+$font-name2: 'Montserrat', sans-serif;
+$font-name3: 'Roboto', sans-serif;
+$font-name4: 'Poppins', sans-serif;
+$font-color-grey : #727A86;
+$font-color-blue : #0D263D;
+$button-color-red: #CD4B43;
+$button-color-blue: #092C4C;
+
+.signin-form{
+    font-family: $font-name1;
+    h2{
+        font-family: $font-name2;
+        color: $font-color-blue;
+        font-weight: 600;
+    }
+    p{
+        color: $font-color-grey;
+    }
+    .input-fields{
+        border: 1.5px solid $button-color-blue;
+    }
+    .signin-button{
+        width: 100%;
+        color: white;
+        background-color: $button-color-red;
+    }
+    .input-icon{
+        color:$font-color-grey
+    }
+}

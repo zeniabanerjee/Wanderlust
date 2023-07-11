@@ -1,0 +1,58 @@
+@mixin items {
+  padding: 0 12px;
+  height: 42px;
+  margin: auto 4px;
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  justify-content: center;
+}
+
+.pagination-container {
+  display: flex;
+  list-style-type: none;
+
+  .pagination-item {
+    @include items;
+    width: 44px;
+
+    &.dots:hover {
+      background-color: transparent;
+      cursor: default;
+    }
+    &:hover {
+      background-color: #fcdede;
+      color:rgb(0, 0, 0);
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    &.selected {
+      background-color: #CD4B43;
+      color:white;
+      font-weight: 600;
+    }
+  }
+
+}
+
+.pagination-select {
+  @include items;
+  width: 74px;
+  background-color: white;
+  &:hover{
+    color:#CD4B43
+  }
+  &.selected {
+    color: #CD4B43;
+  }
+  &.disabled {
+    pointer-events: none;
+    &:hover {
+      background-color: transparent;
+      cursor: default;
+    }
+  }
+}
+

@@ -1,0 +1,46 @@
+body {
+  .openning-amimation-x {
+    animation: openning-animation-x 0.5s;
+    @keyframes openning-animation-x {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+  }
+  .openning-amimation-y {
+    animation: openning-animation-y 0.5s;
+    @keyframes openning-animation-y {
+      from {
+        transform: translateY(-100%);
+      }
+      to {
+        transform: translateY(0);
+      }
+    }
+  }
+  .closing-animation-x {
+    animation: closing-animation-x 0.5s;
+    @keyframes closing-animation-x {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+  }
+  .closing-animation-y {
+    animation: closing-animation-y 0.5s;
+    @keyframes closing-animation-y {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(-100%);
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.openning-animation-x {
+  animation: openning-animation 0.5s;
+  @keyframes openning-animation {
+    0% {
+      transform: scale(0) translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1) translateX(0);
+      opacity: 1;
+    }
+  }
+}
+.openning-animation-y {
+  animation: openning-animation 0.5s;
+  @keyframes openning-animation {
+    0% {
+      transform: scale(0.1) translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1) translateY(0);
+      opacity: 1;
+    }
+  }
+}
+.closing-animation-x {
+  animation: closing-animation 0.5s;
+  @keyframes closing-animation {
+    0% {
+      transform: scale(1) translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0) translateX(-100%);
+      opacity: 0;
+    }
+  }
+}
+.closing-animation-y {
+  animation: closing-animation 0.5s;
+  @keyframes closing-animation {
+    0% {
+      transform: scale(1) translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0) translateY(-100%);
+      opacity: 0;
+    }
+  }
+}
+.simple-openning-animation-y {
+  animation: simple-openning-animation 0.5s;
+  @keyframes simple-openning-animation {
+    0% {
+      transform: scale(0.5) translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1) translateY(0%);
+      opacity: 1;
+    }
+  }
+}
+.simple-closing-animation-y {
+  animation: simple-closing-animation 0.5s;
+  @keyframes simple-closing-animation {
+    0% {
+      transform: scale(1) translateY(0%);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0.5) translateY(-100%);
+      opacity: 0;
+    }
+  }
+}

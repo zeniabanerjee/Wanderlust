@@ -1,0 +1,15 @@
+$font-color-grey: #46485c;
+
+.booking-form {
+  .passenger-number {
+    color: rgba(255, 255, 255, 0.536);
+    font-weight: 700;
+  }
+  .input-fields {
+    background: rgba(255, 255, 255, 0.78);
+    border-radius: 21px;
+  }
+  input::placeholder {
+    color: $font-color-grey;
+  }
+}
