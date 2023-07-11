@@ -1,0 +1,9 @@
+$button-color-red: #bc4e37;
+
+.view-btn {
+  background: $button-color-red;
+  border-radius: 8px;
+}
+.view-btn:hover {
+  background: #65271c;
+}

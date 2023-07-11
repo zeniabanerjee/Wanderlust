@@ -1,0 +1,25 @@
+.faqs-container {
+  li {
+    .faqs-heading {
+      padding: 1rem 1rem;
+      background-color: rgba(173, 174, 187, 0.23);
+    }
+    .faqs-heading,
+    p {
+      background-color: rgba(173, 174, 187, 0.23);
+      border-radius: 1rem;
+    }
+    p {
+      padding: 1rem 1rem;
+      background-color: rgba(255, 255, 255, 0.084);
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    li {
+      .faqs-heading,
+      p {
+        padding: 1rem 4rem;
+      }
+    }
+  }
+}
