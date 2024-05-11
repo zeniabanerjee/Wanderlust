@@ -5,7 +5,7 @@ const imgToUrl = async (image) => {
   let imageUrl = "";
   const formData = new FormData();
   formData.append("file", image);
-  formData.append("upload_preset", "trouvaille");
+  formData.append("upload_preset", "wanderlust");
   formData.append("cloud_name", `${CLOUD_NAME}`);
 
   await fetch(`${CLOUD_API}/${CLOUD_NAME}/image/upload`, {

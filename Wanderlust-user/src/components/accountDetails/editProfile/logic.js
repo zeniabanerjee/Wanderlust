@@ -9,7 +9,7 @@
 //   if (image) {
 //     const formData = new FormData();
 //     formData.append("file", image);
-//     formData.append("upload_preset", "trouvaille");
+//     formData.append("upload_preset", "wanderlust");
 //     formData.append("cloud_name", `${cloudinaryName}`);
 
 //     await fetch(`${cloudinaryApi}/${cloudinaryName}/image/upload`, {

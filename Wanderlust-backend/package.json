@@ -1,5 +1,5 @@
 {
-  "name": "trouvaille-backend",
+  "name": "wanderlust-backend",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itobuz-steps/trouvaille-backend.git"
+    "url": "git+https://github.com/itobuz-steps/wanderlust-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/itobuz-steps/trouvaille-backend/issues"
+    "url": "https://github.com/itobuz-steps/wanderlust-backend/issues"
   },
-  "homepage": "https://github.com/itobuz-steps/trouvaille-backend#readme",
+  "homepage": "https://github.com/itobuz-steps/wanderlust-backend#readme",
   "dependencies": {
     "@web-std/file": "^3.0.2",
     "axios": "^1.3.6",

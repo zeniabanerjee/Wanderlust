@@ -161,7 +161,7 @@ const SignUp = () => {
     <header className=" signup-form justify-center items-center my-auto]">
       <p className="md:text-[28px] text-center">Sign up</p>
       <h2 className="md:text-[40px] text-center mt-[10px] lg:mt-[30px] text-[32px]">
-        Welcome to Trouvaille
+        Welcome to wanderlust
       </h2>
       <div className="mx-auto flex flex-col gap-[30px] lg:w-[900px] w-[90%] md:px-[30px] md:py-[30px] mt-[15px] signup-details px-[20px] py-[20px] lg:py-[40px] lg:px-[40px] justify-center ">
         <div className="flex flex-col relative">

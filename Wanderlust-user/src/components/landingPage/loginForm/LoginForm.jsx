@@ -94,7 +94,7 @@ const LoginForm = () => {
         <p className="md:text-[24px]">Signin</p>
 
         <h2 className="text-center mt-[10px] lg:mt-[15px] text-[40px]">
-          Welcome to Trouvaille
+          Welcome to Wanderlust
         </h2>
 
         <div className="flex flex-col lg:w-[900px] w-[90%] md:px-[20px] md:py-[20px] mt-[15px]  gap-[1rem] lg:gap-[1.3rem] login-details px-[20px] py-[20px] lg:py-[40px] lg:px-[40px] justify-center">

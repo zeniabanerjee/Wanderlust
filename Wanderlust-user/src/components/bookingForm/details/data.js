@@ -15,7 +15,7 @@ export const bookingFormDetails = {
   ],
   address: "a.bc",
   image:
-    "https://res.cloudinary.com/dppmvx1jo/image/upload/v1684322992/trouvaille/electric_uzxtaw.png",
+    "https://res.cloudinary.com/dppmvx1jo/image/upload/v1684322992/wanderlust/electric_uzxtaw.png",
   bookingStatus: "confirm",
   deleteReason: "nothing",
 };

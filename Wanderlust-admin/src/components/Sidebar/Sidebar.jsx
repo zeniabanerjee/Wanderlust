@@ -67,8 +67,8 @@ const Sidebar = (props) => {
               <img src={mainLogo} alt="logo" />
             </div>
             <div className="flex flex-col justify-start items-start">
-              <h3 className="trouvaille-heading text-2xl">trouvaille</h3>
-              <h3 className="trouvaille-text">Front-facing Website</h3>
+              <h3 className="wanderlust-heading text-2xl">Wanderlust</h3>
+              <h3 className="wanderlust-text">Front-facing Website</h3>
             </div>
           </div>
 

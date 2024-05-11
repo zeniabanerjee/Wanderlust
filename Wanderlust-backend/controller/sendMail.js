@@ -17,7 +17,7 @@ const sendMail = async (userName, emailId, link) => {
     })
     .sendMail(
       {
-        from: `"Trouvaille" <${process.env.SENDER_MAIL2}>`,
+        from: `"wanderlust" <${process.env.SENDER_MAIL2}>`,
         to: `${emailId}`,
         subject: "Reset password",
         text: `Click reset password link below!`,
@@ -89,10 +89,10 @@ const sendMail = async (userName, emailId, link) => {
           <body>
             <section class="reset-mail">
               <div class="mail">
-                <div class="mail-title">Reset your Trouvaille Password</div>
+                <div class="mail-title">Reset your wanderlust Password</div>
                 <img
                   src="https://i.ibb.co/JmMBM8t/Group-3.png"
-                  alt="Trouvaille image"
+                  alt="wanderlust image"
                 />
               </div>
               <p class="receiver-name">Hi ${userName},</p>
@@ -107,7 +107,7 @@ const sendMail = async (userName, emailId, link) => {
                 If you didn't request a password reset, you can ignore this email. Your
                 password will not be changed.
               </p>
-              <h2 class="mail-bottom">Trouvaille</h2>
+              <h2 class="mail-bottom">Wanderlust</h2>
               <h6>Front-facing Website</h6>
             </section>
           </body>

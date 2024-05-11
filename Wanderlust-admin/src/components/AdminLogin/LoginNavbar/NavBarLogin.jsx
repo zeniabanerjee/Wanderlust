@@ -13,10 +13,10 @@ export default function NavBarLogin() {
           alt="nav-logo"
         ></img>
         <div className="flex flex-col">
-          <h2 className="trouvaille-heading text-[20px] lg:text-[25px] 2xl:text-[33.15px]">
-            trouvaille
+          <h2 className="wanderlust-heading text-[20px] lg:text-[25px] 2xl:text-[33.15px]">
+            Wanderlust
           </h2>
-          <p className="trouvaille-text text-[10px] mt-[-8px] lg:text-[10px]">
+          <p className="wanderlust-text text-[10px] mt-[-8px] lg:text-[10px]">
             Front-facing Website
           </p>
         </div>

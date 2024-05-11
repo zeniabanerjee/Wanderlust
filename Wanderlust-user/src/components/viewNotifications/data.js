@@ -7,8 +7,8 @@ export const notifications = [
   },
   {
     date: "25/05/2023",
-    title: "Welcome to Trouvaille, thanks for choosing us!!",
-    message: "Welcome to Trouvaille, thanks for choosing us!!",
+    title: "Welcome to wanderlust, thanks for choosing us!!",
+    message: "Welcome to wanderlust, thanks for choosing us!!",
   },
   {
     date: "10/05/2023",
@@ -27,7 +27,7 @@ export const notifications = [
   },
   {
     date: "01/03/2023",
-    title: "Hii, welcome to troubvaille",
-    message: "Welcome to Trouvaille, thanks for choosing us!!",
+    title: "Hii, welcome to Wanderlust",
+    message: "Welcome to Wanderlust, thanks for choosing us!!",
   },
 ];

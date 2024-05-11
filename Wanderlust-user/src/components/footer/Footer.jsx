@@ -83,7 +83,7 @@ function Footer() {
           <div className="flex gap-2">
             <img src={logo} className="" alt="logo" />
             <div className="flex flex-col">
-              <h4 className="text-[30.68px]">trouvaille</h4>
+              <h4 className="text-[30.68px]">Wanderlust</h4>
               <p className="text-[8.74px] tracking-[3px] mt-[-8.38px]">
                 Front-facing Website
               </p>
