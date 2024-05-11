@@ -172,7 +172,7 @@ function Navbar({ setActive }) {
               </p>
               <img
                 src={notificationIcon}
-                className="w-6  h-full  my-auto"
+                className="w-6  h-full  my-auto xl:hover:scale-125 transition-all duration-200"
                 alt="notification-icon"
               />
               <div className={showNotis ? " block shadow-hard " : " hidden "}>
@@ -205,7 +205,11 @@ function Navbar({ setActive }) {
               <div className="rounded-[50%] border-salte-300 border-4">
                 <img
                   className="h-8 w-8 rounded-[50%]"
-                  src={FrontendUserData?.data?.userDetails?.userDetails?.image}
+                  src={
+                    FrontendUserData?.data?.userDetails?.userDetails?.image
+                      ? FrontendUserData?.data?.userDetails?.userDetails?.image
+                      : profileIcon
+                  }
                   alt="profile-icon"
                   onError={({ currentTarget }) => {
                     currentTarget.onerror = null;
