@@ -1,4 +1,4 @@
-# LogIn Deatails
+# LogIn Details
 
 **Admin-User**
 **Email:sabir@itobuz.com**
